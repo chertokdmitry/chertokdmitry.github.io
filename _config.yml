@@ -48,7 +48,7 @@ about_title: Обо мне
 about_profile_image: images/dmitry.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Привет, меня зовут Дмитрий, я бекэнд разработчик. Мой основной язык разработки PHP, а также я активно изучаю Go.
-  Я работаю с базами данных SAP Ace, MySql, Postgres, ElasticSearch.
+  Я работаю с базами данных SAP Sybase, MySql, Postgres, ElasticSearch.
 
   У меня есть опыт построения Rest API с помощью Swagger. В своем проекте я также использовал GRPS Protobuf.
 
@@ -112,11 +112,11 @@ content:
         quote: >
           Группа «Эталон» сегодня является одной из крупнейших корпораций в сфере девелопмента и строительства в России.
         description: | # this will include new lines to allow paragraphs
-          Разработка CRM, API, личного кабинета клиентов
-          Написание сложных запросов SQL к базе данных SAP ASE
+          Разработка CRM, API, личного кабинета клиентов.
+          Написание сложных запросов SQL к базе данных Sybase.
           Разработка с помощью Gitlab и CI flow, Jira.
 
-          Технологии: <mark>SAP Ace</mark> <mark>Laravel</mark> <mark>PHP</mark> <mark>jQuery</mark>
+          Технологии: <mark>SAP Sybase</mark> <mark>Laravel</mark> <mark>PHP</mark> <mark>jQuery</mark>
       - layout: left
         title: Инвестиционная Группа «ПКР»
         link: https://investprojects.info/
@@ -141,42 +141,50 @@ content:
           администрирование выделенного сервера.
 
           Технологии: <mark>PHP 5.6</mark>, <mark>MySQL</mark>, <mark>jQuery</mark>, <mark>Bootstrap</mark>
-  - title: Образование # Title for the section
+  - title: Образование
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title:
         caption: 1995 - 2000
-        #sub_title:
         description: |
           Санкт-Петербургский государственный инженерно-экономический университет "ИНЖЭКОН"
 
           Экономики и менеджмента, Диплом
 
-  - title: Повышение квалификации, курсы # Title for the section
+  - title: Повышение квалификации, курсы 
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Framework Laravel
-        sub_title: Otus, Сертификат
         caption: 2019
+        description: |
+          Framework Laravel
+          Otus, Сертификат
       - layout: left
-        title: PHP-разработчик
-        sub_title: Otus, Сертификат
         caption: 2017
+        description: |
+          PHP-разработчик
+          Otus, Сертификат
       - layout: left
-        title: PHP. Уровень 4. Проектирование и разработка сложных веб-проектов на PHP 5
-        sub_title: «Специалист» при МГТУ им Н.Э.Баумана, Сертификат
         caption: 2015
+        description: |
+          PHP. Уровень 4. Проектирование и разработка сложных веб-проектов на PHP 5
+          «Специалист» при МГТУ им Н.Э.Баумана, Сертификат
       - layout: left
-        title: Проектный менеджмент
-        sub_title: Высшая экономическая школа Университета экономики и финансов, Сертификат PMI
         caption: 2011
+        description: |
+          Проектный менеджмент
+          Высшая экономическая школа Университета экономики и финансов, Сертификат PMI
       - layout: left
-        title: Профессиональное программирование на PHP 5. ХМL и технология AJAX
-        sub_title: Петербургский государственный политехнический университет, Сертификат
         caption: 2010
-
+        description: |
+          Профессиональное программирование на PHP 5. ХМL и технология AJAX
+          Петербургский государственный политехнический университет, Сертификат
+  - title: Знание языков
+    layout: text
+    content: |
+      Русский — Родной
+      Английский — C1 — Продвинутый
   - title: Немного о хобби и увлечениях
     layout: text
     content: |
