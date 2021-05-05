@@ -59,8 +59,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Телеграм-бот прогноза погоды.
-        link: github.com/chertokdmitry
+        title: Телеграм-бот прогноза погоды
+        link: https://t.me/surfweatherbot
+        link_text: t.me/surfweatherbot
         # link_text: Project Website
         additional_links:
           - title: Главный сервис Телеграм-бота
@@ -77,10 +78,7 @@ content:
             url: github.com/chertokdmitry/surfcams
           - title:  Rest API
             icon: fab fa-github
-            url: github.com/sproogen/surfapi
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: github.com/chertokdmitry/surfapi
         quote: >
           Ссылки на репозитории с микросервисами проекта
         description: | # this will include new lines to allow paragraphs
@@ -91,7 +89,7 @@ content:
 
           В качестве источника данных используются Windy.com, Openweathermap.com. Данные сохраняются в базу Postgres.
 
-          Технологии: <mark>Golang</mark> <mark>Protobuf GRPC</mark> <mark>Postgres</mark>
+          Технологии: <mark>Golang</mark> <mark>Postgres</mark> <mark>GRPC</mark>
 
 
   - title: Опыт # Title for the section
@@ -178,7 +176,7 @@ content:
     layout: text
     content: |
       Русский — Родной
-      
+
       Английский — C1 — Продвинутый
   - title: Немного о хобби и увлечениях
     layout: text
