@@ -50,9 +50,9 @@ about_content: | # this will include new lines to allow paragraphs
   Привет, меня зовут Дмитрий, я бекэнд разработчик. Мой основной язык разработки PHP, а также я активно изучаю Go.
   Я работаю с базами данных SAP Sybase, MySql, Postgres, ElasticSearch.
 
-  У меня есть опыт построения Rest API с помощью Swagger. В своем проекте я также использовал GRPS Protobuf.
+  У меня есть опыт построения Rest API с помощью Swagger. В своем последнем проекте я разработал API с помощью GRPS Protobuf.
 
-  В работе использую Git, Jira, PhpStorm, Goland.
+  В работе использую Gitlab, Jira, PhpStorm, Goland. Работаю в Linux, есть опыт настройки серверов.
 
 content:
   - title: Проекты # Title for the section
@@ -60,30 +60,24 @@ content:
     content:
       - layout: top-middle
         title: Телеграм-бот прогноза погоды.
-        link: github.com/sproogen
+        link: github.com/chertokdmitry
         # link_text: Project Website
         additional_links:
           - title: Главный сервис Телеграм-бота
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/chertokdmitry/surfbot
           - title:  API Protobuf GRPS
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/chertokdmitry/surfproto
           - title: Сервис производства видеороликов
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/chertokdmitry/surfavi
           - title: Сервис получения скриншотов камер
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          - title: Сервис получения прогноза погоды
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          - title: Сервис формирования рассылок
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/chertokdmitry/surfcams
           - title:  Rest API
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/sproogen/surfapi
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -129,7 +123,7 @@ content:
           Основные задачи в которых я принимал участие: развитие сайта, разработка API, разработка CRM для менеджеров, резервное копирование, репликация БД,
           настройка рабочих и тестовых серверов, настройка Gitlab CI.
 
-          Технологии: <mark>YII 2</mark> <mark>MySQL</mark> <mark>Elasticsearch</mark> <mark>PHP</mark>
+          Технологии: <mark>YII 2</mark> <mark>MySQL</mark> <mark>Elasticsearch</mark> <mark>PHP</mark> <mark>Linux</mark>
       - layout: left
         title: Fashion Crystals
         sub_title: Программист PHP
@@ -184,6 +178,7 @@ content:
     layout: text
     content: |
       Русский — Родной
+      
       Английский — C1 — Продвинутый
   - title: Немного о хобби и увлечениях
     layout: text
