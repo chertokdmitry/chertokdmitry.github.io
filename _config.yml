@@ -61,22 +61,25 @@ content:
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
-          - title: Сервис обработки видео
+          - title: Главный сервис Телеграм-бота
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
           - title:  API Protobuf GRPS
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
-          - title: Сервис обработки видео
+          - title: Сервис производства видеороликов
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
-          - title:  API Protobuf GRPS
+          - title: Сервис получения скриншотов камер
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
-          - title: Сервис обработки видео
+          - title: Сервис получения прогноза погоды
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
-          - title:  API Protobuf GRPS
+          - title: Сервис формирования рассылок
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          - title:  Rest API
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -85,10 +88,14 @@ content:
         quote: >
           Ссылки на репозитории с микросервисами проекта
         description: | # this will include new lines to allow paragraphs
-          ![Схема сервиса](/images/dmitry.jpeg "Схема сервиса")
+          ![Схема сервиса](/images/surfweather.jpg "Схема сервиса")
 
           Телеграм бот показывает прогноз погоды на серф-спотах. Есть возможность посмотреть скриншот с камеры или видео за последние 24 часа. Можно подписаться и получать прогноз
-          в определенное время каждый день.
+          в определенное время каждый день. Проект состоит из 8 микросервисов написанных на GO. Взаимодействуют между собой через Rest API и GRPC API.
+
+          В качестве источника данных используются Windy.com, Openweathermap.com. Данные сохраняются в базу Postgres.
+
+          Технологии: <mark>Golang</mark>, <mark>Protobuf GRPC</mark>, <mark>Postgres</mark>
 
 
   - title: Опыт # Title for the section
@@ -106,6 +113,8 @@ content:
           Разработка CRM, API, личного кабинета клиентов
           Написание сложных запросов SQL к базе данных SAP ASE
           Разработка с помощью Gitlab и CI flow, Jira.
+
+          Технологии: <mark>SAP Ace</mark>, <mark>Laravel</mark>, <mark>PHP</mark>, <mark>jQuery</mark>
       - layout: left
         title: Инвестиционная Группа «ПКР»
         link: https://investprojects.info/
@@ -114,27 +123,34 @@ content:
         caption: Декабрь 2018 - ноябрь 2019
         quote: >
           Портал «Инвестиционные проекты» является цифровой платформой поддержки инвестиционных проектов России и ЕАЭС.
-        description: | # this will include new lines to allow paragraphs
-          Основные задачи в которых я принимал участие: разработка API, разработка CRM для менеджеров, резервное копирование, репликация БД,
-          настройка рабочих и тестовых серверов, настройка Gitlab CI
-  - title: Education # Title for the section
+        description: |
+          Основные задачи в которых я принимал участие: развитие сайта, разработка API, разработка CRM для менеджеров, резервное копирование, репликация БД,
+          настройка рабочих и тестовых серверов, настройка Gitlab CI.
+
+          Технологии: <mark>YII 2</mark>, <mark>MySQL</mark>, <mark>Elasticsearch</mark>, <mark>PHP</mark>
+      - layout: left
+        title: Fashion Crystals
+        sub_title: Программист PHP
+        caption: Декабрь 2016 — ноябрь 2018
+        quote: >
+          Официальный представитель Swarovski AG в России.
+        description: |
+          Разработка внутренней CMS: обработка заказов, управление товарными остатками, отчетность и статистика, разработка новых модулей для внешнего сайта,
+          администрирование выделенного сервера.
+
+          Технологии: <mark>PHP 5.6</mark>, <mark>MySQL</mark>, <mark>jQuery</mark>, <mark>Bootstrap</mark>
+  - title: Образование # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        title: Санкт-Петербургский государственный инженерно-экономический университет "ИНЖЭКОН"
+        caption: 1995 - 2000
+        sub_title: Экономики и менеджмента, Диплом
 
   - title: Немного о хобби и увлечениях
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Помимо программирования у меня есть несколько хобби:
+    content: |
+      Кроме программирования у меня есть несколько хобби:
       - Кайтсерфинг
       - Сноуборд
       - Большой теннис
