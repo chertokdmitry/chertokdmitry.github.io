@@ -97,7 +97,7 @@ content:
 
           В качестве источника данных используются Windy.com, Openweathermap.com. Данные сохраняются в базу Postgres.
 
-          Технологии: <mark>Golang</mark>, <mark>Protobuf GRPC</mark>, <mark>Postgres</mark>
+          Технологии: <mark>Golang</mark> <mark>Protobuf GRPC</mark> <mark>Postgres</mark>
 
 
   - title: Опыт # Title for the section
@@ -116,7 +116,7 @@ content:
           Написание сложных запросов SQL к базе данных SAP ASE
           Разработка с помощью Gitlab и CI flow, Jira.
 
-          Технологии: <mark>SAP Ace</mark>, <mark>Laravel</mark>, <mark>PHP</mark>, <mark>jQuery</mark>
+          Технологии: <mark>SAP Ace</mark> <mark>Laravel</mark> <mark>PHP</mark> <mark>jQuery</mark>
       - layout: left
         title: Инвестиционная Группа «ПКР»
         link: https://investprojects.info/
@@ -129,7 +129,7 @@ content:
           Основные задачи в которых я принимал участие: развитие сайта, разработка API, разработка CRM для менеджеров, резервное копирование, репликация БД,
           настройка рабочих и тестовых серверов, настройка Gitlab CI.
 
-          Технологии: <mark>YII 2</mark>, <mark>MySQL</mark>, <mark>Elasticsearch</mark>, <mark>PHP</mark>
+          Технологии: <mark>YII 2</mark> <mark>MySQL</mark> <mark>Elasticsearch</mark> <mark>PHP</mark>
       - layout: left
         title: Fashion Crystals
         sub_title: Программист PHP
@@ -145,9 +145,37 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Санкт-Петербургский государственный инженерно-экономический университет "ИНЖЭКОН"
+        title:
         caption: 1995 - 2000
-        sub_title: Экономики и менеджмента, Диплом
+        #sub_title:
+        description: |
+          Санкт-Петербургский государственный инженерно-экономический университет "ИНЖЭКОН"
+
+          Экономики и менеджмента, Диплом
+
+  - title: Повышение квалификации, курсы # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Framework Laravel
+        sub_title: Otus, Сертификат
+        caption: 2019
+      - layout: left
+        title: PHP-разработчик
+        sub_title: Otus, Сертификат
+        caption: 2017
+      - layout: left
+        title: PHP. Уровень 4. Проектирование и разработка сложных веб-проектов на PHP 5
+        sub_title: «Специалист» при МГТУ им Н.Э.Баумана, Сертификат
+        caption: 2015
+      - layout: left
+        title: Проектный менеджмент
+        sub_title: Высшая экономическая школа Университета экономики и финансов, Сертификат PMI
+        caption: 2011
+      - layout: left
+        title: Профессиональное программирование на PHP 5. ХМL и технология AJAX
+        sub_title: Петербургский государственный политехнический университет, Сертификат
+        caption: 2010
 
   - title: Немного о хобби и увлечениях
     layout: text
