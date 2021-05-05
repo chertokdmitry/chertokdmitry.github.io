@@ -50,15 +50,29 @@ about_content: | # this will include new lines to allow paragraphs
   Привет, меня зовут Дмитрий, я бекэнд разработчик. Мой основной язык разработки <mark>PHP</mark>, а также я активно изучаю <mark>Golang</mark>.
   Я работаю с базами данных <mark>SAP Ace</mark>,<mark>MySql</mark>,<mark>Postgres</mark>.
 
+  У меня есть опыт построения <mark>Rest API</mark>  с помощью Swagger. В своем проекте я также использовал <mark>GRPS Protobuf</mark>.
+
 content:
   - title: Проекты # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: Телеграм-бот прогноза погоды.
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
+          - title: Сервис обработки видео
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          - title:  API Protobuf GRPS
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          - title: Сервис обработки видео
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          - title:  API Protobuf GRPS
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
           - title: Сервис обработки видео
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
@@ -69,11 +83,12 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Ссылки на репозитории с микросервисами проекта
         description: | # this will include new lines to allow paragraphs
-          ![Scheme](/images/dmitry.jpeg "Scheme")
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-          Look at this cool image
+          ![Схема сервиса](/images/dmitry.jpeg "Схема сервиса")
+
+          Телеграм бот показывает прогноз погоды на серф-спотах. Есть возможность посмотреть скриншот с камеры или видео за последние 24 часа. Можно подписаться и получать прогноз
+          в определенное время каждый день.
 
 
   - title: Опыт # Title for the section
@@ -81,8 +96,8 @@ content:
     content:
       - layout: left
         title: Группа компаний «Эталон»
-        link: www.lenspecsmu.ru
-        # link_text: boringcompany.com
+        link: http://www.lenspecsmu.ru
+        link_text: lenspecsmu.ru
         sub_title: Backend Developer
         caption: Ноябрь 2019 - по настоящее время
         quote: >
@@ -92,17 +107,16 @@ content:
           Написание сложных запросов SQL к базе данных SAP ASE
           Разработка с помощью Gitlab и CI flow, Jira.
       - layout: left
-        title: Группа компаний «Эталон»
-        link: www.lenspecsmu.ru
-        # link_text: boringcompany.com
-        sub_title: Backend Developer
-        caption: Ноябрь 2019 - по настоящее время
+        title: Инвестиционная Группа «ПКР»
+        link: https://investprojects.info/
+        link_text: investprojects.info
+        sub_title: PHP-разработчик
+        caption: Декабрь 2018 - ноябрь 2019
         quote: >
-          Группа «Эталон» сегодня является одной из крупнейших корпораций в сфере девелопмента и строительства в России.
+          Портал «Инвестиционные проекты» является цифровой платформой поддержки инвестиционных проектов России и ЕАЭС.
         description: | # this will include new lines to allow paragraphs
-          Разработка CRM, API, личного кабинета клиентов
-          Написание сложных запросов SQL к базе данных SAP ASE
-          Разработка с помощью Gitlab и CI flow, Jira.
+          Основные задачи в которых я принимал участие: разработка API, разработка CRM для менеджеров, резервное копирование, репликация БД,
+          настройка рабочих и тестовых серверов, настройка Gitlab CI
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
