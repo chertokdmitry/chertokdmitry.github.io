@@ -47,10 +47,12 @@ linkedin_username: chertokdmitry
 about_title: Обо мне
 about_profile_image: images/dmitry.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Привет, меня зовут Дмитрий, я бекэнд разработчик. Мой основной язык разработки <mark>PHP</mark>, а также я активно изучаю <mark>Golang</mark>.
-  Я работаю с базами данных <mark>SAP Ace</mark>,<mark>MySql</mark>,<mark>Postgres</mark>.
+  Привет, меня зовут Дмитрий, я бекэнд разработчик. Мой основной язык разработки PHP, а также я активно изучаю Go.
+  Я работаю с базами данных SAP Ace, MySql, Postgres, ElasticSearch.
 
-  У меня есть опыт построения <mark>Rest API</mark>  с помощью Swagger. В своем проекте я также использовал <mark>GRPS Protobuf</mark>.
+  У меня есть опыт построения Rest API с помощью Swagger. В своем проекте я также использовал GRPS Protobuf.
+
+  В работе использую Git, Jira, PhpStorm, Goland.
 
 content:
   - title: Проекты # Title for the section
