@@ -91,6 +91,22 @@ content:
 
           Технологии: <mark>Golang</mark> <mark>Postgres</mark> <mark>GRPC</mark>
 
+      - layout: top-middle
+        title: Веб-сайт и панель управления сервиса погоды
+        link: http://www.surfweather.ru
+        link_text: www.surfweather.ru
+        # link_text: Project Website
+        additional_links:
+          - title: Веб страница и панель управления
+            icon: fab fa-github
+            url: github.com/chertokdmitry/surfadmin
+
+        description: | # this will include new lines to allow paragraphs
+          Веб версия прогноза сервиса прогноза погоды.
+          В панели управления можно управлять локациями, привязывать - отвязывать камеры.
+
+          Технологии: <mark>Laravel 8</mark> <mark>PHP 7.4</mark> <mark>Postgres</mark> <mark>Redis</mark>
+
 
   - title: Опыт # Title for the section
     layout: list # Type of content section (list/text)
