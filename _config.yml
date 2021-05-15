@@ -60,7 +60,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Телеграм-бот списков задач
+        title: Телеграм-бот списка задач
         link: https://t.me/just_todo_bot
         link_text: t.me/just_todo_bot
         # link_text: Project Website
@@ -74,7 +74,7 @@ content:
           ![Схема сервиса](/images/justbot.jpg "Схема сервиса")
 
           Телеграм бот для составления списков задач. Для начало работы необходимо создать список, в который добавляются задачи.
-          Проект состоит из двух микросервисов: телеграм бота и сервиса API, который непосдственно работает с базой Postgres.
+          Проект состоит из двух микросервисов: телеграм бота и сервиса API, который непосредственно работает с базой Postgres.
 
           Технологии: <mark>Golang</mark> <mark>Postgres</mark> <mark>Docker</mark>
 
