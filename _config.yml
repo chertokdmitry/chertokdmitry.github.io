@@ -59,6 +59,25 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Телеграм-бот списков задач
+        link: https://t.me/just_todo_bot
+        link_text: t.me/just_todo_bot
+        # link_text: Project Website
+        additional_links:
+          - title: Главный сервис Телеграм-бота
+            icon: fab fa-github
+            url: github.com/chertokdmitry/justbot
+        quote: >
+          Ссылки на репозитории с микросервисами проекта
+        description: | # this will include new lines to allow paragraphs
+          ![Схема сервиса](/images/justbot.jpg "Схема сервиса")
+
+          Телеграм бот для составления списков задач. Для начало работы необходимо создать список, в который добавляются задачи.
+          Проект состоит из двух микросервисов: телеграм бота и сервиса API, который непосдственно работает с базой Postgres.
+
+          Технологии: <mark>Golang</mark> <mark>Postgres</mark> <mark>Docker</mark>
+
+      - layout: top-middle
         title: Телеграм-бот прогноза погоды
         link: https://t.me/surfweatherbot
         link_text: t.me/surfweatherbot
